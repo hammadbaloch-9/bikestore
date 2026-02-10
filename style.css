@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    background-color: rgb(37, 6, 6);
+    color: #ffffff;
+}
+
+.navbar {
+  background-color: black;
+  border: 2px solid black;
+  margin: 50px;
+  height: 70px;
+  text-align: center;
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-evenly;
+  border-radius: 30px;
+  margin: 0;
+  font-size: x-large;
+  animation-name: backInDown;
+  animation-duration: 4s;
+
+ }
+ @media screen and (max-width: 450px) {
+
+   .navbar .item {
+      color: #d30d0d;
+      font-style: italic;
+   }
+   .animate__animated {
+     color: blue;
+      flex-wrap: wrap-reverse;
+   }
+}
+
+ .item{
+    /* border: 2px solid black; */
+    align-content: center;
+ }
+
+ header {
+   margin-top: 50px;
+   margin-bottom: 50px;
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(3, 1, 1, 0.367);
+    border-bottom: 2px solid #222;
+    border-radius: 20px;
+}
+
+
+
+
+ header h1 {
+    color: #f5c542;
+    margin-bottom: 10px;
+ }
+
+ .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    animation-name: fadeInRight;
+    animation-duration: 2s;
+ }
+.container:hover {
+  background-color:rgba(3, 1, 1, 0.367);
+}
+ .bike1 {
+    background-color: #161616;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 217, 0);
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation-name: fadeInRight;
+    animation-duration: 2s;
+ }
+ .bike2 {
+    background-color: #161616;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 217, 0);
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation-name:fadeInTopLeft;
+    animation-duration: 3s;
+ }
+ .bike3 {
+    background-color: #161616;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 217, 0);
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation-name:fadeInRight;
+    animation-duration: 3s;
+ }
+ .bike4 {
+    background-color: #161616;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 217, 0);
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation-name: fadeInTopLeft;
+    animation-duration: 3s;
+ }
+
+ .bike h2 {
+    color: #48f542;
+    margin-bottom: 10px;
+ }
+
+
+ .bike p {
+    font-size: 18px;
+ }
+ .bike img {
+    border-radius: 20px;
+    
+  
+ }
+ .bike1:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+ }
+ 
+ .bike2:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+ }
+ 
+ .bike3:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+ }
+ 
+ .bike4:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+ }
+
+ footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #111;
+    border-top: 2px solid #222;
+ }
+ p{
+    text-decoration: line-through;
+ }
+ 
+ a>img{
+
+   position: absolute;
+   width: 70px;
+   height: 70px;
+   right: 20px;
+   bottom: 20px;
+   border-radius: 100px;
+   position: fixed;
+    
+ }
+.animate__animated {
+  animation-name: zoomInDown;
+  animation-duration: 1s;
+  
+}
